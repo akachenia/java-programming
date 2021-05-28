@@ -21,8 +21,8 @@ package day47_constructors;
                 newAddress.setZipCode("22102");
                 System.out.println(newAddress.toString());
 
-                Address papaJohn = new Address("8501 Tyco Rd Ste 1A", "Vienna", "VA", "22182");
-
+                Address papaJohnPizza = new Address("8501 Tyco Rd Ste 1A", "Vienna", "VA", "22182");
+                System.out.println("Papa John pizza = " + papaJohnPizza.toString());
 
             }
         }
