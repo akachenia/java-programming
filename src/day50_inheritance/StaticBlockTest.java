@@ -7,6 +7,8 @@ public class StaticBlockTest {
         StaticBlockDemo st3 = new StaticBlockDemo();
 
         System.out.println(StaticBlockDemo.num);
+        StaticBlockDemo st4 = new StaticBlockDemo(50);
+        System.out.println(StaticBlockDemo.num);
 
     }
 }
