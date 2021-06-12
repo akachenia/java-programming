@@ -6,6 +6,7 @@ public class MobileApp {
     double version;
 
     public void useTheApp(int minutes){
+
         System.out.println("Using " + name + "app for " + minutes + "minutes");
     }
 
