@@ -6,7 +6,22 @@ public class ElectricCar {
     private double price;
     private int year;
     private int range;
+    private static int count;
 
+    public ElectricCar(String make, String model, double price, int year, int range){
+
+        this.make = make;
+        this.model = model;
+        this.price = price;
+        this.year = year;
+        this.range = range;
+        count ++;
+    }
+
+    public static int getCount(){
+
+
+    }
     @Override
     public String toString() {
         return "ElectricCar{" +
