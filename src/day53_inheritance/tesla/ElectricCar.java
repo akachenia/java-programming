@@ -5,23 +5,22 @@ public class ElectricCar {
     private String model;
     private double price;
     private int year;
-    private int range;
-    private static int count;
+    private static int range;
+    private static int count; //all object will share this variable
 
-    public ElectricCar(String make, String model, double price, int year, int range){
-
-        this.make = make;
+    public ElectricCar(String make, String model, double price, int year, int range) {
+        setMake(make); //reuse the code in the setter condition
         this.model = model;
         this.price = price;
         this.year = year;
         this.range = range;
-        count ++;
+        count++; //increase count by 1 - everytime new car is created
     }
 
-    public static int getCount(){
-
-
+    public static int getCount() {
+        return count;
     }
+
     @Override
     public String toString() {
         return "ElectricCar{" +
@@ -33,23 +32,21 @@ public class ElectricCar {
                 '}';
     }
 
-    public int getRange(){
+    public static int getRange() {
         return range;
     }
 
-    public void setRange(int range){
+    public void setRange(int range) {
         this.range = range;
-
     }
-    //model3.drive(34)
-    protected void drive(int miles){
+    //model3.drive(34);
+    protected void drive(int miles) {
         if (range == 0 || range - miles < 0) {
-            System.out.println("Error: Cannot drive that far, need to charge");
-        }else{
+            System.out.println("ERROR: Cannot drive that far, need to charge");
+        } else {
             range -= miles;
-            System.out.println("driving " + miles +" miles ...");
+            System.out.println("Driving " + miles + " miles ...");
         }
-
     }
 
     public String getMake() {
@@ -57,7 +54,11 @@ public class ElectricCar {
     }
 
     public void setMake(String make) {
-        this.make = make;
+        if (make.isEmpty()) {
+            System.out.println("ERROR: Make cannot be blank");
+        } else {
+            this.make = make;
+        }
     }
 
     public String getModel() {
