@@ -1,6 +1,6 @@
-package day55_abstraction.exercis_example;
+package day55_abstraction.exercise_example;
 
-public class Running extends Exercise{
+public class Running extends Exercise {
 
     @Override
     public void perform() {

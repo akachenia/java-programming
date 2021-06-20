@@ -1,4 +1,4 @@
-package day55_abstraction.exercis_example;
+package day55_abstraction.exercise_example;
 
 public class Swimming extends Exercise {
 
@@ -12,4 +12,5 @@ public class Swimming extends Exercise {
     public int getCaloriesCount(int minutes) {
         return minutes * 11;
     }
+
 }

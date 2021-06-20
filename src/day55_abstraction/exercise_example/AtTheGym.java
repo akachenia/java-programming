@@ -1,4 +1,4 @@
-package day55_abstraction.exercis_example;
+package day55_abstraction.exercise_example;
 
 public class AtTheGym {
     public static void main(String[] args) {

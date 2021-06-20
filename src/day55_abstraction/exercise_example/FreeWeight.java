@@ -1,6 +1,8 @@
-package day55_abstraction.exercis_example;
+package day55_abstraction.exercise_example;
 
-public class FreeWeight extends Lifting{
+import day55_abstraction.exercise_example.Lifting;
+
+public class FreeWeight extends Lifting {
     @Override
     public void perform() {
         System.out.println("Lifting Free Weight dumbbells");
