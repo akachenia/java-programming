@@ -12,9 +12,9 @@ public class VariableNamingRules {
         int salary$ = 55;
         //int 1stMonthSalary = 3000; -> error, cannot start with number
         int $ = 10;
-        int _ = 3;
+        int a = 3;
         System.out.println($);
-        System.out.println(_);
+        System.out.println(a);
         //Above variables work fine, but not recommended.
         // we should use meaningful variables name
         //number -of-friends = 400; -> ERROR

@@ -11,6 +11,6 @@ public class comments {
         //this is comment, you can type anything
         //this is line is also comment
         System.out.println("wooden spoon");
-        //TODO: continue after wooden spoon
+
     }
 }

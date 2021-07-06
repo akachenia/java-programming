@@ -11,7 +11,7 @@ public class PrimitiveCasting {
         System.out.println(shNum1);
         System.out.println(lNum1);
 
-        //TODO; continue more practice on Casting
+
 
 
 

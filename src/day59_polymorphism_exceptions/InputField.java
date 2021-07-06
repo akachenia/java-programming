@@ -3,7 +3,7 @@ package day59_polymorphism_exceptions;
 public class InputField implements WebElement{
     public static final String TAG_NAME = "input";
 
-    public String getValue(){
+    public void getValue(){
         System.out.println("Getting value in the InputField");
 
     }
@@ -15,7 +15,7 @@ public class InputField implements WebElement{
 
     @Override
     public void click() {
-        System.out.println("");
+        System.out.println("Click");
 
     }
 

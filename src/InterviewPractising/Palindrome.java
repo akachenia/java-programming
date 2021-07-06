@@ -19,8 +19,6 @@ public class Palindrome {
 
             temp = temp / 10; //
 
-
-
         }
 
         if(reversed == num){

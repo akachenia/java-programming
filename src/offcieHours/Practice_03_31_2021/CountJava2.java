@@ -1,6 +1,5 @@
 package offcieHours.Practice_03_31_2021;
 
-import com.sun.xml.internal.xsom.XSUnionSimpleType;
 
 public class CountJava2 {
     public static void main(String[] args) {
